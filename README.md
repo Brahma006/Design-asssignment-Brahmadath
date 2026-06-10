@@ -68,14 +68,7 @@ A Set-Reset flip-flop with active-high inputs. Demonstrates basic bistable latch
 
 Each module's testbench can be simulated using any standard Verilog simulator:
 
-```bash
-# Using Icarus Verilog (example for Ripple Carry Adder)
-iverilog -o rca_sim day1/Ripple_Carry_Adder/RC_tb.v day1/Ripple_Carry_Adder/design/<design_file>.v
-vvp rca_sim
 
-# View waveforms (if $dumpfile is used in testbench)
-gtkwave dump.vcd
-```
 
 ---
 
