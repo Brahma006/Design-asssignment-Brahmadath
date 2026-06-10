@@ -4,7 +4,7 @@
 A collection of digital design assignments implemented in Verilog HDL, organized by day. Each module includes a design file and a corresponding testbench for simulation and verification.
 
 ```
-Design-asssignment-Brahmadath/
+
 ├── day1/
 │   ├── BCD_Adder/
 │   │   ├── design/
