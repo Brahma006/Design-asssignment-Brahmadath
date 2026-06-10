@@ -4,15 +4,15 @@
 A collection of digital design assignments implemented in Verilog HDL, organized by day. Each module includes a design file and a corresponding testbench for simulation and verification.
 
 ---
-Design-asssignment-Brahmadath/
+
 ├── day1/
 │   ├── BCD_Adder/
 │   │   ├── design/
-│   │   └── bcd_tb.v          # Testbench for BCD Adder
+│   │   └── bcd_tb.v         
 │   └── Ripple_Carry_Adder/
 │       ├── design/
-│       ├── RC_tb.v            # Testbench for Ripple Carry Adder
-│       └── rca.md             # Notes / documentation
+│       ├── RC_tb.v           
+│       └── rca.md             
 │
 ├── day2/
 │   ├── 2x4_decoder/
