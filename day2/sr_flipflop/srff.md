@@ -1,6 +1,6 @@
 
 
-# SR Flip-Flop (RTL) — Verilog Implementation
+# SR Flip-Flop — Verilog Implementation
 
 A synchronous **SR Flip-Flop** implemented in Verilog and synthesized to RTL. Includes full testbench simulation with waveform output.
 
