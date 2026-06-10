@@ -1,4 +1,4 @@
-# Day 2 : 2x4 Decoder Design and Verification
+# Day 2 -Task 1: 2x4 Decoder Design and Verification
 
 ## 1. Objective
 
