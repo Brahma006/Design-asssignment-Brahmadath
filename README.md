@@ -82,8 +82,8 @@ gtkwave dump.vcd
 ## Tools
 
 - **Language:** Verilog HDL
-- **Simulator:** Icarus Verilog / ModelSim / Vivado
-- **Waveform Viewer:** GTKWave
+- **Simulator:** Xilinix Vivado
+  
 
 ---
 
