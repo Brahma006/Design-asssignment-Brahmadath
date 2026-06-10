@@ -1,3 +1,4 @@
+Day 2- Task 2:Universal Shift Register
 Objective
 
 To design and verify a 4-bit Universal Shift Register (USR) using Verilog HDL and simulate its functionality using Xilinx Vivado.
