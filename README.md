@@ -3,27 +3,27 @@
 
 A collection of digital design assignments implemented in Verilog HDL, organized by day. Each module includes a design file and a corresponding testbench for simulation and verification.
 
----
-
+```
+Design-asssignment-Brahmadath/
 ├── day1/
 │   ├── BCD_Adder/
 │   │   ├── design/
-│   │   └── bcd_tb.v         
+│   │   └── bcd_tb.v          # Testbench for BCD Adder
 │   └── Ripple_Carry_Adder/
 │       ├── design/
-│       ├── RC_tb.v           
-│       └── rca.md             
+│       ├── RC_tb.v            # Testbench for Ripple Carry Adder
+│       └── rca.md             # Notes / documentation
 │
 ├── day2/
 │   ├── 2x4_decoder/
 │   │   ├── design/
 │   │   └── tb/
-│   ├── USR/                  
+│   ├── USR/                   # Universal Shift Register
 │   │   ├── design/
 │   │   └── tb/
 │   ├── dff/
 │   │   ├── design/
-│   │   │   └── design.v       
+│   │   │   └── design.v       # D Flip-Flop design
 │   │   └── tb/
 │   └── sr_flipflop/
 │       ├── design/
@@ -32,14 +32,14 @@ A collection of digital design assignments implemented in Verilog HDL, organized
 └── day3/
     ├── Face_detect/
     │   ├── design/
-    │   │   └── fd.v           
+    │   │   └── fd.v           # Face detect design
     │   ├── tb/
-    │   │   └── fd_tb.v       
-    │   └── fd.md              
+    │   │   └── fd_tb.v        # Testbench for Face detect
+    │   └── fd.md              # Notes / documentation
     └── Sequence_detector_overlap/
         ├── design/
         ├── tb/
-        └── SD.md            
+        └── SD.md          
  
 ### Day 1
  
