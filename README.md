@@ -41,7 +41,7 @@ A collection of digital design assignments implemented in Verilog HDL, organized
         ├── tb/
         └── SD.md          
  
-### Day 1
+ Day 1
  
 #### BCD Adder
 A Binary-Coded Decimal (BCD) adder that adds two single-digit BCD numbers and produces a BCD result with carry output. Includes correction logic to keep the sum in valid BCD range (0–9).
@@ -51,25 +51,25 @@ A multi-bit ripple carry adder built by chaining full adder units. The carry pro
  
 ---
  
-### Day 2
+Day 2
  
-#### 2×4 Decoder
+2×4 Decoder
 A combinational circuit that activates one of four output lines based on a 2-bit input, with an enable signal. Used in memory addressing and demultiplexing applications.
  
-#### Universal Shift Register (USR)
+ Universal Shift Register (USR)
 A register capable of parallel load, serial shift left, serial shift right, and hold operations, controlled by a 2-bit mode select input.
  
-#### D Flip-Flop (DFF)
+ D Flip-Flop (DFF)
 A positive/negative edge-triggered D flip-flop — the fundamental sequential storage element used in registers, counters, and state machines.
  
-#### SR Flip-Flop
+ SR Flip-Flop
 A Set-Reset flip-flop with active-high inputs. Demonstrates basic bistable latch behavior with undefined state handling.
  
 ---
  
-### Day 3
+ Day 3
  
-#### Face Detect
+Face Detect
 A finite state machine (FSM)-based sequence detector that identifies a specific pattern in a serial input stream — modeled to simulate face/feature detection logic in hardware. Includes design (`fd.v`), testbench (`fd_tb.v`), and documentation (`fd.md`).
  
 #### Sequence Detector (Overlapping)
