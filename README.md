@@ -4,28 +4,42 @@
 A collection of digital design assignments implemented in Verilog HDL, organized by day. Each module includes a design file and a corresponding testbench for simulation and verification.
 
 ---
-## File Structure
- 
-```
-day3/
-├── Face detect/
-│   ├── design/
-│   │   ├── FIFO.v         
-│   │   ├── Mod.v          
-│   │   ├── fd.v             
-│   │   └── top.v           
-│   ├── tb/
-│   │   └── fd_tb.v         
-│   └── fd.md              
+Design-asssignment-Brahmadath/
+├── day1/
+│   ├── BCD_Adder/
+│   │   ├── design/
+│   │   └── bcd_tb.v          # Testbench for BCD Adder
+│   └── Ripple_Carry_Adder/
+│       ├── design/
+│       ├── RC_tb.v            # Testbench for Ripple Carry Adder
+│       └── rca.md             # Notes / documentation
 │
-└── Sequence detector overlap/
-    ├── design/
-    │   └── <design files>  # FSM RTL source(s)
-    ├── tb/
-    │   └── <testbench>.v   # Sequence detector testbench
-    ├── SD.md               # Sequence detector design notes
-    └── State_diagram.md    # FSM state transition diagram
-```
+├── day2/
+│   ├── 2x4_decoder/
+│   │   ├── design/
+│   │   └── tb/
+│   ├── USR/                  
+│   │   ├── design/
+│   │   └── tb/
+│   ├── dff/
+│   │   ├── design/
+│   │   │   └── design.v       
+│   │   └── tb/
+│   └── sr_flipflop/
+│       ├── design/
+│       └── tb/
+│
+└── day3/
+    ├── Face_detect/
+    │   ├── design/
+    │   │   └── fd.v           
+    │   ├── tb/
+    │   │   └── fd_tb.v       
+    │   └── fd.md              
+    └── Sequence_detector_overlap/
+        ├── design/
+        ├── tb/
+        └── SD.md            
  
 ### Day 1
  
