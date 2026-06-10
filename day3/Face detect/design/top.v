@@ -31,13 +31,8 @@ wire [7:0] fifo_out;
 wire full;
 wire empty;
 
-// Face Detection Module
 Face_Detect_Mod FD(clk, s_in, face_out);
-
-// FIFO
 FIFO F1(clk, rst, 1'b1, 1'b1, face_out, fifo_out, full, empty);
-
-// Output Module
 mod_out M1(clk, fifo_out, d_out);
 
 endmodule
