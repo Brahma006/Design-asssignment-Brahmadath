@@ -8,22 +8,22 @@ A collection of digital design assignments implemented in Verilog HDL, organized
 ├── day1/
 │   ├── BCD_Adder/
 │   │   ├── design/
-│   │   └── bcd_tb.v          # Testbench for BCD Adder
+│   │   └── bcd_tb.v         
 │   └── Ripple_Carry_Adder/
 │       ├── design/
-│       ├── RC_tb.v            # Testbench for Ripple Carry Adder
-│       └── rca.md             # Notes / documentation
+│       ├── RC_tb.v            
+│       └── rca.md             
 │
 ├── day2/
 │   ├── 2x4_decoder/
 │   │   ├── design/
 │   │   └── tb/
-│   ├── USR/                   # Universal Shift Register
+│   ├── USR/                  
 │   │   ├── design/
 │   │   └── tb/
 │   ├── dff/
 │   │   ├── design/
-│   │   │   └── design.v       # D Flip-Flop design
+│   │   │   └── design.v       
 │   │   └── tb/
 │   └── sr_flipflop/
 │       ├── design/
@@ -32,15 +32,24 @@ A collection of digital design assignments implemented in Verilog HDL, organized
 └── day3/
     ├── Face_detect/
     │   ├── design/
-    │   │   └── fd.v           # Face detect design
+    │   │   └── fd.v          
     │   ├── tb/
-    │   │   └── fd_tb.v        # Testbench for Face detect
-    │   └── fd.md              # Notes / documentation
+    │   │   └── fd_tb.v        
+    │   └── fd.md             
     └── Sequence_detector_overlap/
+    |    ├── design/
+    |    ├── tb/
+    |    └── SD.md          
+    |
+    day4/
         ├── design/
+        │   └── blockmemgen.v
         ├── tb/
-        └── SD.md          
+        │   └── blockmemgen_tb.v
+        └── read.md
+```
  
+---
  Day 1
  
 #### BCD Adder
