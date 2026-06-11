@@ -1,6 +1,6 @@
-# Block Memory Generator — 8×8 Modelling (Verilog)
+# TASK -4 Block Memory Generator — 8×8 Modelling (Verilog)
  
-> **Task 4** — RTL modelling of an 8-location × 8-bit  BRAM  
+
  
 ## Overview
  
