@@ -48,7 +48,7 @@ begin
     #10;
     rst_tb = 0;
 
-    // Write data
+    
     wrenb_tb = 1;
     data_in_tb = 8'h11; #10;
     data_in_tb = 8'h22; #10;
@@ -57,7 +57,7 @@ begin
 
     wrenb_tb = 0;
 
-    // Read data
+ 
     #10;
     rdenb_tb = 1;
 
@@ -68,7 +68,7 @@ begin
 
     rdenb_tb = 0;
 
-    // Write more data
+   
     #10;
     wrenb_tb = 1;
     data_in_tb = 8'hAA; #10;
@@ -76,7 +76,7 @@ begin
 
     wrenb_tb = 0;
 
-    // Read again
+    
     #10;
     rdenb_tb = 1;
     #20;
