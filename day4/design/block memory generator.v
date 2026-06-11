@@ -54,8 +54,7 @@ module blockmemogenmode(
             if (!wenb)                         
                 data_out <= mem[read_address];
         end
-    end
- 
+    end 
 endmodule
 
 
