@@ -1,10 +1,9 @@
-
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10.06.2026 12:06:17
+// Create Date: 13.06.2026 12:06:17
 // Design Name: 
 // Module Name: FIFO
 // Project Name: 
