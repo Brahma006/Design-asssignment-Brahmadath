@@ -80,20 +80,7 @@ The interface groups all DUT signals into a single structure.
 | sum[3:0] | Sum Output   |
 | carry    | Carry Output |
  
-### Interface Code
- 
-```systemverilog
-interface bcd_if;
- 
-  logic [3:0] a;
-  logic [3:0] b;
-  logic       cin;
- 
-  logic [3:0] sum;
-  logic       carry;
- 
-endinterface
-```
+
  
 ---
  
@@ -115,16 +102,7 @@ Applies stimulus through the interface and observes outputs.
  
 ### Verification Flow
  
-```text
-Testbench
-    ↓
-Interface
-    ↓
-BCD Adder DUT
-    ↓
-Output Observation
-```
- 
+
 ---
  
 # RTL Analysis
